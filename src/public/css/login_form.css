@@ -1,0 +1,20 @@
+.header {
+    background-color: white;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.form__name--text input {
+    padding: 10px;
+    width: 270px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+    margin-left: 50px;
+
+}

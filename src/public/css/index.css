@@ -1,0 +1,127 @@
+.header {
+    background-color: white;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 24px;
+    font-family: serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: serif;
+    color: darkgoldenrod;
+    font-weight: 100;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: red;
+}
+
+.form__label--item {
+    color: darkgoldenrod;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.gender__select {
+    padding: 10px;
+    margin-right: 420px;
+
+}
+
+.form__name--text input {
+    padding: 10px;
+    width: 270px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+    margin-left: 50px;
+
+}
+
+.form__tel--text input {
+    padding: 10px;
+    width: 163px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+    margin-left: 50px;
+}
+
+.question__select {
+    width: 350px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+}
